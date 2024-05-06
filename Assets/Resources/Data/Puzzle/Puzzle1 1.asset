@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a29cbc3d0bbea4e95551e9f2f52ba1, type: 3}
+  m_Name: Puzzle1 1
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Rows: 8
+  Columns: 8
+  Board:
+  - Size: 8
+    Row:
+    - I
+    - P
+    - A
+    - O
+    - C
+    - F
+    - Z
+    - A
+  - Size: 8
+    Row:
+    - M
+    - L
+    - N
+    - N
+    - C
+    - F
+    - W
+    - M
+  - Size: 8
+    Row:
+    - E
+    - H
+    - O
+    - Z
+    - I
+    - S
+    - W
+    - A
+  - Size: 8
+    Row:
+    - T
+    - A
+    - F
+    - C
+    - W
+    - D
+    - L
+    - Z
+  - Size: 8
+    Row:
+    - H
+    - A
+    - L
+    - Q
+    - C
+    - F
+    - Q
+    - I
+  - Size: 8
+    Row:
+    - Z
+    - F
+    - G
+    - C
+    - T
+    - O
+    - D
+    - N
+  - Size: 8
+    Row:
+    - F
+    - G
+    - J
+    - T
+    - H
+    - U
+    - R
+    - G
+  - Size: 8
+    Row:
+    - K
+    - K
+    - M
+    - M
+    - M
+    - W
+    - R
+    - B
+  SearchWords:
+  - Word: AMAZING
+  - Word: BROCCOLI
+  - Word: AMATURE
+  - Word: BROCCOLI
+  - Word: BROCCOLI
+  - Word: BROCCOLI
+  - Word: BROCCOLI
+  - Word: BROCCOLI
+  - Word: BROCCOLI
