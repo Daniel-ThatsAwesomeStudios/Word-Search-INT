@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a29cbc3d0bbea4e95551e9f2f52ba1, type: 3}
+  m_Name: Animal 5x5 2
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Rows: 5
+  Columns: 5
+  Board:
+  - Size: 5
+    Row:
+    - X
+    - X
+    - W
+    - V
+    - K
+  - Size: 5
+    Row:
+    - F
+    - T
+    - B
+    - T
+    - A
+  - Size: 5
+    Row:
+    - M
+    - L
+    - V
+    - H
+    - K
+  - Size: 5
+    Row:
+    - B
+    - R
+    - B
+    - B
+    - D
+  - Size: 5
+    Row:
+    - W
+    - T
+    - Q
+    - U
+    - G
+  SearchWords:
+  - Word: PANDA
+  - Word: TIGER
+  - Word: SNAKE
+  - Word: KOALA
+  - Word: RHINO
+  - Word: ZEBRA
+  - Word: OTTER
+  - Word: RAVEN
+  - Word: ZEBRA

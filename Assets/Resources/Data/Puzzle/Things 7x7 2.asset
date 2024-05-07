@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a29cbc3d0bbea4e95551e9f2f52ba1, type: 3}
+  m_Name: Things 7x7 2
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Rows: 7
+  Columns: 7
+  Board:
+  - Size: 7
+    Row:
+    - N
+    - E
+    - Z
+    - H
+    - W
+    - Y
+    - N
+  - Size: 7
+    Row:
+    - R
+    - C
+    - M
+    - G
+    - K
+    - Z
+    - E
+  - Size: 7
+    Row:
+    - N
+    - Z
+    - D
+    - U
+    - O
+    - N
+    - B
+  - Size: 7
+    Row:
+    - I
+    - Q
+    - B
+    - E
+    - X
+    - B
+    - E
+  - Size: 7
+    Row:
+    - E
+    - E
+    - S
+    - N
+    - C
+    - Q
+    - F
+  - Size: 7
+    Row:
+    - P
+    - B
+    - F
+    - I
+    - B
+    - Y
+    - Y
+  - Size: 7
+    Row:
+    - R
+    - D
+    - V
+    - W
+    - T
+    - G
+    - U
+  SearchWords:
+  - Word: WATCH
+  - Word: CATCH
+  - Word: MATCH
+  - Word: ZEBRA
+  - Word: KOALA
+  - Word: ZEBRA
+  - Word: TIGER
+  - Word: OTTER
+  - Word: RAVEN

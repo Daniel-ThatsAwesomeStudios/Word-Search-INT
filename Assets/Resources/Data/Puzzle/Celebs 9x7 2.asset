@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a29cbc3d0bbea4e95551e9f2f52ba1, type: 3}
+  m_Name: Celebs 9x7 2
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Rows: 7
+  Columns: 9
+  Board:
+  - Size: 7
+    Row:
+    - H
+    - F
+    - I
+    - U
+    - K
+    - Q
+    - X
+  - Size: 7
+    Row:
+    - O
+    - L
+    - H
+    - J
+    - S
+    - X
+    - C
+  - Size: 7
+    Row:
+    - S
+    - R
+    - D
+    - N
+    - F
+    - B
+    - R
+  - Size: 7
+    Row:
+    - N
+    - I
+    - F
+    - D
+    - C
+    - G
+    - U
+  - Size: 7
+    Row:
+    - P
+    - Q
+    - V
+    - K
+    - J
+    - E
+    - G
+  - Size: 7
+    Row:
+    - X
+    - P
+    - L
+    - M
+    - B
+    - T
+    - O
+  - Size: 7
+    Row:
+    - D
+    - J
+    - V
+    - P
+    - C
+    - W
+    - Q
+  - Size: 7
+    Row:
+    - Y
+    - M
+    - X
+    - H
+    - D
+    - U
+    - M
+  - Size: 7
+    Row:
+    - W
+    - G
+    - Z
+    - O
+    - H
+    - J
+    - G
+  SearchWords:
+  - Word: CRUZ
+  - Word: ALBA
+  - Word: JOLIE
+  - Word: TIGER
+  - Word: RHINO
+  - Word: ZEBRA
+  - Word: OTTER
+  - Word: RAVEN
+  - Word: ZEBRA

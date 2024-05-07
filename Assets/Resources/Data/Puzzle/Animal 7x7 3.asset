@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a29cbc3d0bbea4e95551e9f2f52ba1, type: 3}
+  m_Name: Animal 7x7 3
+  m_EditorClassIdentifier: 
+  timeInSeconds: 0
+  Rows: 7
+  Columns: 7
+  Board:
+  - Size: 7
+    Row:
+    - F
+    - I
+    - B
+    - J
+    - F
+    - Z
+    - H
+  - Size: 7
+    Row:
+    - L
+    - V
+    - H
+    - I
+    - I
+    - H
+    - M
+  - Size: 7
+    Row:
+    - B
+    - T
+    - P
+    - V
+    - U
+    - C
+    - O
+  - Size: 7
+    Row:
+    - N
+    - N
+    - D
+    - Y
+    - L
+    - K
+    - M
+  - Size: 7
+    Row:
+    - L
+    - Q
+    - X
+    - Z
+    - D
+    - G
+    - R
+  - Size: 7
+    Row:
+    - W
+    - S
+    - Z
+    - F
+    - L
+    - J
+    - L
+  - Size: 7
+    Row:
+    - Y
+    - A
+    - P
+    - Y
+    - K
+    - H
+    - T
+  SearchWords:
+  - Word: ZEBRA
+  - Word: RHINO
+  - Word: SNAKE
+  - Word: PANDA
+  - Word: TIGER
+  - Word: KOALA
+  - Word: ZEBRA
+  - Word: OTTER
+  - Word: RAVEN
