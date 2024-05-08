@@ -358,9 +358,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2124075654}
+      - m_Target: {fileID: 1850643764}
         m_TargetAssemblyTypeName: UImanager, Assembly-CSharp
-        m_MethodName: BackToMenuScene
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -729,8 +729,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2124075654}
-        m_TargetAssemblyTypeName: UImanager, Assembly-CSharp
+      - m_Target: {fileID: 1850643765}
+        m_TargetAssemblyTypeName: ManageScene, Assembly-CSharp
         m_MethodName: BackToMenuScene
         m_Mode: 1
         m_Arguments:

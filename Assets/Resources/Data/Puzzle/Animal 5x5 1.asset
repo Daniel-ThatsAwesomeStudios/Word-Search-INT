@@ -18,46 +18,41 @@ MonoBehaviour:
   Board:
   - Size: 5
     Row:
-    - A
+    - Y
     - A
     - R
-    - E
-    - S
-  - Size: 5
-    Row:
     - L
-    - D
-    - A
-    - Z
-    - N
-  - Size: 5
-    Row:
-    - A
-    - N
-    - V
-    - C
-    - A
-  - Size: 5
-    Row:
-    - O
     - T
-    - E
+  - Size: 5
+    Row:
     - A
-    - K
+    - D
+    - I
+    - X
+    - I
   - Size: 5
     Row:
     - K
+    - O
+    - E
+    - C
+    - G
+  - Size: 5
+    Row:
+    - N
+    - B
+    - E
+    - I
+    - E
+  - Size: 5
+    Row:
+    - I
     - E
     - N
     - G
-    - E
+    - R
   SearchWords:
-  - Word: SNAKE
-  - Word: PANDA
+  - Word: LION
+  - Word: IBEX
   - Word: TIGER
-  - Word: KOALA
-  - Word: RHINO
-  - Word: ZEBRA
-  - Word: OTTER
-  - Word: RAVEN
-  - Word: ZEBRA
+  - Word: OWL

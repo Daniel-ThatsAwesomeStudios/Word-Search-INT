@@ -18,46 +18,41 @@ MonoBehaviour:
   Board:
   - Size: 5
     Row:
-    - X
-    - X
+    - K
+    - Y
     - W
     - V
-    - K
+    - Z
   - Size: 5
     Row:
-    - F
-    - T
+    - O
+    - A
     - B
-    - T
+    - E
     - A
   - Size: 5
     Row:
-    - M
-    - L
-    - V
+    - A
+    - K
+    - B
     - H
     - K
   - Size: 5
     Row:
-    - B
+    - L
     - R
     - B
     - B
     - D
   - Size: 5
     Row:
-    - W
-    - T
-    - Q
-    - U
-    - G
+    - A
+    - D
+    - N
+    - A
+    - P
   SearchWords:
+  - Word: YAK
+  - Word: ZEBRA
   - Word: PANDA
-  - Word: TIGER
-  - Word: SNAKE
   - Word: KOALA
-  - Word: RHINO
-  - Word: ZEBRA
-  - Word: OTTER
-  - Word: RAVEN
-  - Word: ZEBRA

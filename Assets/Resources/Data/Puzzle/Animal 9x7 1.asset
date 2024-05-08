@@ -18,92 +18,89 @@ MonoBehaviour:
   Board:
   - Size: 7
     Row:
-    - C
-    - U
-    - D
-    - E
-    - J
-    - N
-    - I
-  - Size: 7
-    Row:
-    - T
-    - L
-    - J
-    - C
-    - B
-    - V
-    - Z
-  - Size: 7
-    Row:
-    - V
-    - W
-    - T
-    - I
-    - M
-    - Q
-    - W
-  - Size: 7
-    Row:
-    - Y
-    - P
-    - E
-    - Q
-    - P
-    - P
-    - J
-  - Size: 7
-    Row:
-    - O
-    - N
-    - Y
-    - L
-    - P
-    - Q
-    - E
-  - Size: 7
-    Row:
-    - T
-    - K
-    - Q
     - A
-    - V
-    - X
-    - Y
+    - U
+    - S
+    - E
+    - J
+    - M
+    - K
   - Size: 7
     Row:
-    - Z
-    - B
-    - S
+    - R
+    - L
     - U
-    - Z
-    - J
     - C
+    - E
+    - E
+    - A
+  - Size: 7
+    Row:
+    - M
+    - W
+    - P
+    - I
+    - L
+    - E
+    - N
+  - Size: 7
+    Row:
+    - A
+    - P
+    - Y
+    - Q
+    - L
+    - R
+    - G
+  - Size: 7
+    Row:
+    - D
+    - N
+    - T
+    - L
+    - E
+    - K
+    - A
+  - Size: 7
+    Row:
+    - I
+    - K
+    - A
+    - A
+    - Z
+    - A
+    - R
+  - Size: 7
+    Row:
+    - L
+    - B
+    - L
+    - U
+    - A
+    - T
+    - O
+  - Size: 7
+    Row:
+    - L
+    - Q
+    - P
+    - N
+    - G
+    - I
+    - O
   - Size: 7
     Row:
     - O
-    - Q
-    - X
-    - N
+    - S
+    - T
     - R
     - I
-    - K
-  - Size: 7
-    Row:
-    - V
-    - V
-    - U
-    - K
-    - X
-    - X
-    - S
+    - C
+    - H
   SearchWords:
-  - Word: SNAKE
-  - Word: RHINO
-  - Word: PANDA
-  - Word: ZEBRA
-  - Word: KOALA
-  - Word: ZEBRA
-  - Word: TIGER
-  - Word: OTTER
-  - Word: RAVEN
+  - Word: GAZELLE
+  - Word: PLATYPUS
+  - Word: MEERKAT
+  - Word: KANGAROO
+  - Word: ARMADILLO
+  - Word: OSTRICH

@@ -9,7 +9,7 @@ public class ManageScene : MonoBehaviour
     {
         Debug.Log("Game Scene Loading");
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        SceneManager.LoadScene("GameScene 1");
+        SceneManager.LoadScene(3);
     }
 
     public void BackToMenuScene()

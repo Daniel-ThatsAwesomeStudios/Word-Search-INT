@@ -18,39 +18,39 @@ MonoBehaviour:
   Board:
   - Size: 5
     Row:
-    - C
-    - C
-    - R
-    - E
+    - S
+    - X
+    - P
+    - X
     - S
   - Size: 5
     Row:
-    - R
-    - A
-    - A
+    - W
+    - O
     - Z
-    - N
-  - Size: 5
-    Row:
-    - U
-    - U
-    - B
     - C
-    - A
+    - R
   - Size: 5
     Row:
+    - J
+    - H
+    - B
+    - B
     - Z
-    - Z
-    - E
-    - L
-    - K
   - Size: 5
     Row:
-    - K
-    - E
-    - N
+    - Q
+    - F
+    - M
     - G
-    - A
+    - O
+  - Size: 5
+    Row:
+    - I
+    - M
+    - F
+    - Y
+    - N
   SearchWords:
   - Word: JOLIE
   - Word: ALBA

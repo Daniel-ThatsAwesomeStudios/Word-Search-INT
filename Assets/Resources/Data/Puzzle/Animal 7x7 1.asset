@@ -18,74 +18,71 @@ MonoBehaviour:
   Board:
   - Size: 7
     Row:
-    - F
-    - I
+    - J
+    - O
     - B
     - J
     - F
-    - Z
-    - H
-  - Size: 7
-    Row:
     - L
-    - V
-    - H
-    - I
-    - I
-    - H
-    - M
+    - G
   - Size: 7
     Row:
-    - B
-    - T
-    - P
-    - V
-    - U
-    - C
+    - A
+    - K
+    - H
+    - I
+    - E
     - O
+    - H
   - Size: 7
     Row:
-    - N
-    - N
-    - D
+    - G
+    - A
+    - P
+    - M
+    - R
+    - C
     - Y
+  - Size: 7
+    Row:
+    - U
+    - P
+    - A
+    - I
     - L
     - K
-    - M
+    - E
   - Size: 7
     Row:
+    - A
+    - I
     - L
-    - Q
-    - X
     - Z
     - D
     - G
+    - N
+  - Size: 7
+    Row:
     - R
-  - Size: 7
-    Row:
+    - L
     - W
-    - S
-    - Z
+    - O
+    - L
     - F
-    - L
-    - J
-    - L
+    - A
   - Size: 7
     Row:
-    - Y
     - A
-    - P
-    - Y
-    - K
-    - H
-    - T
+    - A
+    - L
+    - E
+    - M
+    - A
+    - C
   SearchWords:
-  - Word: RHINO
-  - Word: SNAKE
-  - Word: PANDA
-  - Word: TIGER
-  - Word: KOALA
-  - Word: ZEBRA
-  - Word: OTTER
-  - Word: RAVEN
-  - Word: ZEBRA
+  - Word: HYENA
+  - Word: WOLF
+  - Word: JAGUAR
+  - Word: CAMEL
+  - Word: OKAPI
+  - Word: GORILLA
