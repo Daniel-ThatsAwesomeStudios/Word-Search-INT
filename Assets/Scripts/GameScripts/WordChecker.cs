@@ -32,11 +32,11 @@ public class WordChecker : MonoBehaviour
     private void Start()
     {
         _assignedPoints = 0;
-        _completedWords = 0; 
+        _completedWords = 0;
     }
     private void Update()
     {
-        if(_assignedPoints > 0 && Application.isEditor)
+        if (_assignedPoints > 0 && Application.isEditor)
         {
             Debug.DrawRay(_rayUp.origin, _rayUp.direction * 4);
             Debug.DrawRay(_rayDown.origin, _rayDown.direction * 4);
@@ -51,7 +51,7 @@ public class WordChecker : MonoBehaviour
 
     private void SquareSelected(string letter, Vector3 squarePosition, int squareIndex)
     {
-        if(_assignedPoints == 0)
+        if (_assignedPoints == 0)
         {
             _rayStartPosition = squarePosition;
             _correctSquareList.Add(squareIndex);
@@ -65,10 +65,10 @@ public class WordChecker : MonoBehaviour
             _rayDiagonalLeftDown = new Ray(new Vector2(squarePosition.x, squarePosition.y), new Vector2(-1f, -1f));
             _rayDiagonalRightUp = new Ray(new Vector2(squarePosition.x, squarePosition.y), new Vector2(1f, 1f));
             _rayDiagonalRightDown = new Ray(new Vector2(squarePosition.x, squarePosition.y), new Vector2(1f, -1f));
-            
+
         }
 
-        else if(_assignedPoints == 1)
+        else if (_assignedPoints == 1)
         {
             _correctSquareList.Add(squareIndex);
             _currentRay = SelectRay(_rayStartPosition, squarePosition);
@@ -79,7 +79,7 @@ public class WordChecker : MonoBehaviour
 
         else
         {
-            if(IsPointOnTheRay(_currentRay, squarePosition))
+            if (IsPointOnTheRay(_currentRay, squarePosition))
             {
                 _correctSquareList.Add(squareIndex);
                 GameEvents.SelectSquareMethod(squarePosition);
@@ -90,16 +90,16 @@ public class WordChecker : MonoBehaviour
 
         _assignedPoints++;
 
-      /*  GameEvents.SelectSquareMethod(squarePosition);
-        _word += letter;
-        CheckWord();*/
+        /*  GameEvents.SelectSquareMethod(squarePosition);
+          _word += letter;
+          CheckWord();*/
     }
 
     private void CheckWord()
     {
-        foreach(var searchingWord in currentGameData.selectBoardData.SearchWords)
+        foreach (var searchingWord in currentGameData.selectBoardData.SearchWords)
         {
-            if(_word == searchingWord.Word)
+            if (_word == searchingWord.Word)
             {
                 GameEvents.CorrectWordMethod(_word, _correctSquareList);
                 _word = string.Empty;
@@ -113,9 +113,9 @@ public class WordChecker : MonoBehaviour
     {
         var hits = Physics.RaycastAll(currentRay, 100.0f);
 
-        for(int i = 0; i < hits.Length; i++)
+        for (int i = 0; i < hits.Length; i++)
         {
-            if(hits[i].transform.position == point)
+            if (hits[i].transform.position == point)
             {
                 return true;
             }
@@ -129,7 +129,7 @@ public class WordChecker : MonoBehaviour
         var direction = (secondPosition - firstPosition).normalized;
         float tolerance = 0.01f;
 
-        if(Mathf.Abs(direction.x) < tolerance && Mathf.Abs(direction.y - 1f) < tolerance)
+        if (Mathf.Abs(direction.x) < tolerance && Mathf.Abs(direction.y - 1f) < tolerance)
         {
             return _rayUp;
         }
