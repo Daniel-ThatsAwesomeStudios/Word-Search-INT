@@ -14,71 +14,80 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeInSeconds: 0
   Rows: 7
-  Columns: 7
+  Columns: 8
   Board:
   - Size: 7
     Row:
+    - T
+    - X
     - R
+    - O
     - U
-    - M
-    - E
-    - L
-    - O
-    - T
-  - Size: 7
-    Row:
-    - L
-    - V
     - H
-    - I
-    - I
-    - T
-    - Y
-  - Size: 7
-    Row:
-    - B
-    - T
-    - P
-    - V
-    - O
-    - T
-    - E
-  - Size: 7
-    Row:
-    - N
-    - N
-    - D
-    - R
     - L
+  - Size: 7
+    Row:
+    - G
     - E
     - K
-  - Size: 7
-    Row:
-    - S
-    - U
-    - R
+    - F
+    - Y
+    - X
     - L
-    - A
-    - W
-    - N
   - Size: 7
     Row:
-    - N
+    - T
+    - T
+    - W
+    - I
+    - Z
+    - Z
+    - T
+  - Size: 7
+    Row:
     - A
-    - C
     - U
     - O
-    - T
+    - N
+    - M
     - O
+    - Z
+  - Size: 7
+    Row:
+    - J
+    - V
+    - R
+    - D
+    - N
+    - R
+    - U
+  - Size: 7
+    Row:
+    - Z
+    - R
+    - D
+    - E
+    - I
+    - A
+    - A
+  - Size: 7
+    Row:
+    - R
+    - Z
+    - W
+    - R
+    - Z
+    - Z
+    - C
   - Size: 7
     Row:
     - P
+    - N
+    - S
     - O
+    - I
     - T
-    - T
-    - E
-    - R
-    - M
+    - Q
   SearchWords:
   - Word: WALRUS
   - Word: PARROT
