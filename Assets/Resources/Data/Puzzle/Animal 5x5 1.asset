@@ -18,21 +18,21 @@ MonoBehaviour:
   Board:
   - Size: 5
     Row:
-    - Y
+    - O
     - A
     - R
     - L
     - T
   - Size: 5
     Row:
-    - A
+    - W
     - D
     - I
     - X
     - I
   - Size: 5
     Row:
-    - K
+    - L
     - O
     - E
     - C
